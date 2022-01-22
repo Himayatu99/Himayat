@@ -1,9 +1,16 @@
 import React from 'react';
-
+import Common from './Common';
+// import web from '/public/img/himayt.jpg'
 const About = () => {
+    const img = `https://source.unsplash.com/400x300?`
     return (
         <>
-            <h1>Welcome to About Page</h1>
+            <Common
+                name='Welcome to About page'
+                imgsrc={img}
+                visit='/contact'
+                btname="Contact Now"
+            />
         </>
     )
 };

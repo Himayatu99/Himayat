@@ -7,6 +7,7 @@ import About from './About'
 import Contact from './Contact'
 import Service from './Service'
 import Navbar from './Navbar'
+import Footer from "./Footer";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 const App = () => {
   return (
@@ -22,7 +23,7 @@ const App = () => {
 
         </Routes>
       </Router>
-      {/* <h1 className="text-center text-success">Testing</h1> */}
+      <Footer />
     </>
   )
 }
