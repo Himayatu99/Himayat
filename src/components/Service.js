@@ -19,6 +19,9 @@ const Service = () => {
                                         key={ind}
                                         imgsrc={val.imgsrc}
                                         title={val.title}
+                                        desc={val.desc}
+                                        btn={val.btn}
+                                        btnClor={val.btnClor}
 
                                     />
                                 })
