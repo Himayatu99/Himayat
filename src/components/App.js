@@ -13,8 +13,8 @@ const App = () => {
   return (
     <>
 
-      <Navbar />
       <Router>
+        <Navbar />
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/about' element={<About />} />

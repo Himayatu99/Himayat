@@ -3,7 +3,6 @@ import Card from './Card';
 import Sdata from './Sdata';
 
 const Service = () => {
-    // const img = `https://source.unsplash.com/400x300?`
     return (
         <>
             <div className='my-5'>
